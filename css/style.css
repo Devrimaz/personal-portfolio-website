@@ -9703,3 +9703,18 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.hero-image{
+  min-height: 100vh;                 /* or 400px */
+  background-image: url("../images/main-pic.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .hero-image{
+    background-image: url("../images/main-pic-mobile-view.png") !important;
+  }
+}
+}
